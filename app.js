@@ -2,7 +2,6 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const ejs = require("ejs");
 const _ = require("lodash");
-const mongodb = require("mongodb");
 const mongoose = require("mongoose");
 const dotenv = require("dotenv");
 dotenv.config();
